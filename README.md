@@ -51,7 +51,7 @@ Monitoring issue volume in tandem order throughput helps distinguish between iso
 
 ### Weekly DTC Fulfillment Issues by Category
 
-![Weekly DTC Fulfillment Issues](dtc_issues.png)
+![Weekly DTC Fulfillment Issues](dtc_issues1.png)
 
 ## OTIF Service Level Performance
 
