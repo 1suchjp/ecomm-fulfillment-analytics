@@ -41,8 +41,7 @@ Order accuracy represents the percentage of orders shipped without picking, pack
 
 Tracking this metric at the weekly level provides early detection of potential operational process failures.
 
-INSERTIMAGEHERE
-
+![Order Fulfillment Accuracy Trends](of_accuracy.png)
 
 ## Issue Trend Analysis
 
