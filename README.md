@@ -49,6 +49,9 @@ Operational issues are categorized and tracked weekly to identify recurring fulf
 
 Monitoring issue volume in tandem order throughput helps distinguish between isolated incidents and systemic process problems.
 
+### Weekly DTC Fulfillment Issues by Category
+
+![Weekly DTC Fulfillment Issues](dtc_issues.png)
 
 ## OTIF Service Level Performance
 
