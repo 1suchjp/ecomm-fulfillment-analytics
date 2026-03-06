@@ -16,7 +16,7 @@ This project analyzes ops performance for e-commerce order fulfillment, focusing
 The goal is to provide issue visibility and detect process failures that may impact customer experience and/or fulfillment efficiency.
 
 
-## Operation Context
+## Operational Context
 
 Orders are fulfilled across both direct-to-consumer (DTC) and business-to-business (B2B) sales channels.
 
@@ -66,15 +66,6 @@ This monitoring framework supports ops teams by:
 
 These insights help guide process improvements across both manufacturing & fulfillment operations.
 
-## Damage Root Cause Analysis
-
-Damage incidents were further categorized to identify underlying drivers such as
-breakage, leakage, carrier repackaging, and frozen beverage exposure.
-
-Tracking these categories separately helps distinguish packaging failures,
-carrier handling issues, and potential manufacturing inconsistencies.
-
-![DTC Damage Categories](dtc_damage.png)
 
 ## Observed Trends
 
