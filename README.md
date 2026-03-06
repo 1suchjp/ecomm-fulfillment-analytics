@@ -45,11 +45,11 @@ Tracking this metric at the weekly level provides early detection of potential o
 
 ## Issue Trend Analysis
 
-Operational issues are categorized and tracked weekly to identify recurring fulfillment errors such as damaged products, incorrect quantities packed, or items missing from orders.
+Operational issues are categorized and tracked weekly to identify recurring fulfillment errors such as damaged products, incorrect quantities packed, or items missing from orders. Monitoring issue volume in tandem order throughput helps distinguish between isolated incidents and systemic process problems.
 
-Monitoring issue volume in tandem order throughput helps distinguish between isolated incidents and systemic process problems.
+Damage incidents were further categorized to identify underlying drivers such as breakage, leakage, carrier repackaging, and frozen beverage exposure. Tracking these categories separately helps identify packaging failures, carrier handling issues, and potential manufacturing inconsistencies.
 
-### Weekly DTC Fulfillment Issues by Category
+<ins>Weekly DTC Fulfillment Issues by Category & Damage Root Cause Analysis</ins>
 
 ![Weekly DTC Fulfillment Issues](dtc_issues1.png)
 
@@ -70,6 +70,15 @@ This monitoring framework supports ops teams by:
 
 These insights help guide process improvements across both manufacturing & fulfillment operations.
 
+## Damage Root Cause Analysis
+
+Damage incidents were further categorized to identify underlying drivers such as
+breakage, leakage, carrier repackaging, and frozen beverage exposure.
+
+Tracking these categories separately helps distinguish packaging failures,
+carrier handling issues, and potential manufacturing inconsistencies.
+
+![DTC Damage Categories](dtc_damage.png)
 
 ## Observed Trends
 
