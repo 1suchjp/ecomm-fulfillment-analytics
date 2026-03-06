@@ -15,6 +15,7 @@ This project analyzes ops performance for e-commerce order fulfillment, focusing
 
 The goal is to provide issue visibility and detect process failures that may impact customer experience and/or fulfillment efficiency.
 
+
 ## Operation Context
 
 Orders are fulfilled across both direct-to-consumer (DTC) and business-to-business (B2B) sales channels.
@@ -22,26 +23,16 @@ Orders are fulfilled across both direct-to-consumer (DTC) and business-to-busine
 Operational monitoring focuses on identifying fulfillment errors, damage incidents, and service-level deviations that occur during order processing and shipment handling.
 
 
-## Metrics Monitored
-
-Key operational metrics tracked in this analysis include:
-
-• Order fulfillment accuracy  
-• Weekly operational issue counts  
-• Damage incidents by root cause  
-• B2B fulfillment issue trends  
-• OTIF (On-Time-In-Full) service level performance
-
-
-## Example KPI Monitoring
-
-Order Fulfillment Accuracy
+## Order Fulfillment Accuracy
 
 Order accuracy represents the percentage of orders shipped without picking, packing, or labeling errors.
 
 Tracking this metric at the weekly level provides early detection of potential operational process failures.
 
+<ins>DTC & B2B Order Fulfillment Accuracy</ins>
+
 ![Order Fulfillment Accuracy Trends](of_accuracy.png)
+
 
 ## Issue Trend Analysis
 
@@ -59,13 +50,18 @@ OTIF (On-Time-In-Full) measures the reliability of the fulfillment process by tr
 
 This KPI is monitored against operational targets to ensure consistent service performance.
 
+![OTIF Service Level Performance](otif_kpi.png)
+
 ## The "Why"
 
 This monitoring framework supports ops teams by:
 
 • Detecting fulfillment accuracy degradation early
+
 • Identifying root causes of shipment damage
+
 • Tracking operational issue trends over time
+
 • Monitoring service reliability through OTIF performance
 
 These insights help guide process improvements across both manufacturing & fulfillment operations.
