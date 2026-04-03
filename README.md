@@ -1,27 +1,25 @@
 # ecomm-fulfillment-analytics
 Operational analytics framework for monitoring fulfillment accuracy, issue trends, and OTIF performance across DTC and B2B channels.
 
-## Metrics Monitored
+## What was tracked -
 
 • Order fulfillment accuracy  
 • Weekly operational issue counts  
-• Damage classification by category  
-• DTC & B2B fulfillment error tracking  
+• Damage classification and RCA  
+• DTC & B2B error trends  
 • OTIF (On-Time-In-Full) performance
 
-## Overview
+## What this model  does
+
+In E-Commerce, fulfillment issues tend to get lost in the mix until they compound. This model reveals them early and ties them back to likely causes.
 
 This project analyzes ops performance for e-commerce order fulfillment, focusing on order accuracy, issue trends, damage root causes, and OTIF service levels.
 
-The goal is to provide issue visibility and detect process failures that may impact customer experience and/or fulfillment efficiency.
+## Operational fulfillment accuracy
 
+Orders are fulfilled across both DTC and B2B sales channels.
 
-## Operational Context
-
-Orders are fulfilled across both direct-to-consumer (DTC) and business-to-business (B2B) sales channels.
-
-Operational monitoring focuses on identifying fulfillment errors, damage incidents, and service-level deviations that occur during order processing and shipment handling.
-
+This metric is tracked weekly as the percentage of orders shipped without picking, packing, or labeling errors.
 
 ## Order Fulfillment Accuracy
 
@@ -34,40 +32,26 @@ Tracking this metric at the weekly level provides early detection of potential o
 ![Order Fulfillment Accuracy Trends](of_accuracy.png)
 
 
-## Issue Trend Analysis
+## Issue trend analysis
 
-Operational issues are categorized and tracked weekly to identify recurring fulfillment errors such as damaged products, incorrect quantities packed, or items missing from orders. Monitoring issue volume in tandem order throughput helps distinguish between isolated incidents and systemic process problems.
+Operational issues are categorized weekly alongside order throughput. 
 
-Damage incidents were further categorized to identify underlying drivers such as breakage, leakage, carrier repackaging, and frozen beverage exposure. Tracking these categories separately helps identify packaging failures, carrier handling issues, and potential manufacturing inconsistencies.
+Damage incidents were categorized to identify underlying issues such as breakage, leakage, carrier repackaging, and frozen beverage. Tracking these categories separately helps identify packaging failures, carrier handling, or something upstream in manufacturing.
 
 <ins>Weekly DTC Fulfillment Issues by Category & Damage Root Cause Analysis</ins>
 
 ![Weekly DTC Fulfillment Issues](dtc_issues1.png)
 
-## OTIF Service Level Performance
+## OTIF performance
 
-OTIF (On-Time-In-Full) measures the reliability of the fulfillment process by tracking whether orders are shipped on time and complete.
+OTIF (On-Time-In-Full) measures whether or not orders ship on time.
 
-This KPI is monitored against operational targets to ensure consistent service performance.
+This KPI is monitored against SLA targets (in this case, 99.5%) to catch service level drift.
 
 ![OTIF Service Level Performance](otif_kpi.png)
 
-## The "Why"
 
-This monitoring framework supports ops teams by:
-
-• Detecting fulfillment accuracy degradation early
-
-• Identifying root causes of shipment damage
-
-• Tracking operational issue trends over time
-
-• Monitoring service reliability through OTIF performance
-
-These insights help guide process improvements across both manufacturing & fulfillment operations.
-
-
-## Observed Trends
+## What the data actually showed
 
 Analysis of weekly operational metrics revealed several recurring patterns:
 
