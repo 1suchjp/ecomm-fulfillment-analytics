@@ -40,7 +40,7 @@ Damage incidents were categorized to identify underlying issues such as breakage
 
 <ins>Weekly DTC Fulfillment Issues by Category & Damage Root Cause Analysis</ins>
 
-![Weekly DTC Fulfillment Issues](dtc_issues1.png)
+![Weekly DTC Fulfillment Issues](dtc_issues2.png)
 
 ## OTIF performance
 
